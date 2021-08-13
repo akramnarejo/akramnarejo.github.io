@@ -182,7 +182,10 @@ h1{
 .project-desc li:first-child{
     padding-left: 0;
 }
-
+.project-desc a:hover,
+.about a:hover{
+	text-decoration: underline;
+}
 /* blog */
 .blog{
     width: 100%;
