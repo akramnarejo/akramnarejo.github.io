@@ -1,96 +1,148 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Akram Narejo</title>
-  <link rel="stylesheet" href="css/style.css">
-  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Akram Narejo</title>
 </head>
-
 <body>
-  
-  <div id="container">
-    <h1>Akram Narejo</h1>
-    <sub>Frontend developer</sub>
-    <div class="animation">
-      <img style="float: right; margin: 10px; margin-top: -120px;" loading="lazy" src="img/animation.png" height="120px">
+    <div class="container">
+        <!--home section-->
+        <section class='home' id='home'>
+            <nav class='navbar'>
+                <span class='nav-icon'>=</span>
+                <ul class='nav-ul'>
+                    <li><a href='#home' class="a">Home</a></li>
+                    <li><a href='#projects' class="a">Projects</a></li>
+                    <li><a href='#blog' class="a">Blog</a></li>
+                    <li><a href='#contact' class="a">Contact</a></li>
+                </ul>
+            </nav>
+            <main>
+                <div class="about">
+                    <h1>
+                        👋 <br>Hello! I'm Akram Narejo, a frontend developer, from Pakistan.
+                    </h1>
+                    <p>
+                        keeping things aligned always fascinates me and makes me more productive. 
+                        As a software developer, I do not only write the machine-performant and human readable code 
+                        but also love to improve the user experience UX by designing the better UI to keep the user engaged.
+                    </p>
+                    <div class="connect">
+                        <ul>
+                            <li><a href="https://linkedin.com/in/akramnarejo" target="_blank">Linkedin</a></li>
+                            <li><a href="https://twitter.com/akramnarejo" target="_blank">Twitter</a></li>
+                            <li><a href="https://github.com/akramnarejo" target="_blank">Github</a></li>
+                            <li><a href="https://codepen.io/akramnarejo" target="_blank">Codepen</a></li>
+                            <li><a href="#">Resume</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src='img/profile.jpg'>
+                </div>
+            </main>
+        </section>
+
+        <!--project section-->
+        <section class='projects' id='projects'>
+            <h2>Projects</h2>
+            <div class="project-container">
+                <div class="project-image">
+                    <img src="img/project-img/minimalism-life.png" alt="minimalism life">
+                </div>
+                <div class="project-desc">
+                    <h3>The Social Life</h3>
+                    <p>Blog upon the minimalism in the social life which is completely about living with minimalism. </p>
+                    <ul>
+                        <li><a href="https://codepen.io/akramnarejo/pen/jOmegxK" target="_blank">code</a></li>
+                        <li><a href="https://cdpn.io/akramnarejo/debug/jOmegxK/VGrWNGJOEVpM#" target="_blank">visit</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-image">
+                    <img src="img/project-img/responsive-layout.png" alt="responsive layout">
+                </div>
+                <div class="project-desc">
+                    <h3>Responsive Layout</h3>
+                    <p>A responsive full page layout.</p>
+                    <ul>
+                        <li><a href="https://codepen.io/akramnarejo/pen/QWvVyqJ" target="_blank">code</a></li>
+                        <li><a href="https://cdpn.io/akramnarejo/debug/QWvVyqJ/yoMZEpoXeyGk" target="_blank">visit</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-image">
+                    <img src="img/project-img/url-keeper.png" alt="url keeper">
+                </div>
+                <div class="project-desc">
+                    <h3>URL Keeper</h3>
+                    <p>A Chrome exention to keep your favorite urls. Either by giving input yourself or grabbing from the current tab. User can clear all the saved urls.</p>
+                    <ul>
+                        <li><a href="https://github.com/akramnarejo/url-keeper#url-keepr" target="_blank">code</a></li>
+                        <li><a href="https://chrome.google.com/webstore/detail/url-keeper/ccelhojgnbidfilmdgpfnoncffmiogik" target="_blank">visit</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-image">
+                    <img src="img/project-img/roll-dice.png" alt="Roll Dice game">
+                </div>
+                <div class="project-desc">
+                    <h3>Roll Dice Game</h3>
+                    <p>Dice game between two players to do the score of 20. Who scores first, wins!</p>
+                    <ul>
+                        <li><a href="https://github.com/akramnarejo/roll-dice" target="_blank">code</a></li>
+                        <li><a href="https://akramnarejo.github.io/roll-dice/" target="_blank">visit</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-image">
+                    <img src="img/project-img/snake-game.png" alt="Snake game">
+                </div>
+                <div class="project-desc">
+                    <h3>Snake Game</h3>
+                    <p>Classic Snake game where snakes moves and eats apples and grows as many apples eats, and score is made likewise. If collided with boundary then finished.</p>
+                    <ul>
+                        <li><a href="https://github.com/akramnarejo/frontend-projects/tree/master/snake_game" target="_blank">code</a></li>
+                        <li><a href="#" target="_blank">visit</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!--blog section-->
+        <section class="blog" id='blog'>
+            <h2>Blog</h2>
+            <h3>I write at <a href="https://dev.to/akramnarejo" target="_blank">dev.to ✍️</a></h3>
+            <ul>
+                <li><a href="https://dev.to/akramnarejo/how-to-decide-css-units-for-responsive-website-nk4" target="_blank">How to decide CSS units for the repsonsive website?</a></li>
+                <li><a href="https://dev.to/akramnarejo/push-remote-changes-with-another-account-2579" target="_blank">Push remote changes to github with another account.</a></li>
+                <li><a href="https://dev.to/akramnarejo/diff-and-patch-3mfc" target="_blank">Diff and Patch Explained.</a></li>
+            </ul>   
+        </section>
+
+        <!--contact section-->
+        <section class='contact' id='contact'>
+            <div class='contact-details'>
+                <h2>👨‍🚀</h2>
+                <p>Let's work together!<br><strong><a href='mailto:ak.narejo@gmail.com'>ak.narejo@gmail.com</a></strong></p>
+                <div class='social-accounts'>
+                    <ul>
+                        <li><a href='https://linkedin.com/in/akramnarejo' target='_blank'><img src="https://img.icons8.com/ios/50/000000/linkedin.png"/></a></li>
+                        <li><a href='https://twitter.com/akramnarejo' target='_blank'><img src="https://img.icons8.com/ios/50/000000/twitter--v1.png"/></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </section>
     </div>
-    <div class="about">
-    <img style="float: right; margin: 10px" src="img/profile.jpg" height="200px">
 
-    <p>
-      I'm a software developer with the great focus in front-end development to code the better look (UI) for the better feel (UX).
-    </p>
-
-
-    <p>
-  contact me at <span style="color: #2A6EA6;" class="mail"> ak.narejo@gmail.com </span> or visit me on following sites
-      </p>
-      
-      <p>
-  <a href="https://twitter.com/akramnarejo" target="_blank"><img class="social" src="img/twitter.png" height="32px"></a>
-
-  <a href="https://github.com/akramnarejo" target="_blank"><img class="social" src="img/github.png" height="32px"></a>
-  
-  <a href="https://linkedin.com/in/akramnarejo" target="_blank"><img class="social" src="img/linkedin.png" height="32px"></a>
-
-
-  
-
-</div>
-
-<div>
-  <h2>Projects</h2>
-  
-  <ul>
-    <li>
-      <a href="https://github.com/akramnarejo/frontend-projects/tree/master/snake_game" target="_blank">Snake Game</a>:
-      Developed an old classic snake game with the 10 levels of speed and earns 1 point of score with 1 apple.
-    </li>
-    <li>
-      <a href="https://github.com/akramnarejo/roll-dice" target="_blank">Roll Dice Game</a>:
-      Developed a roll dice game as fun project. Where two players roll the dice turn to turn. Winner is the one who scores greater than 20.
-    </li>
-    <li>
-    <a href="https://github.com/akramnarejo/url-keeper" target="_blank">Url Keeper</a>: 
-    Chome extention to keep your favorite urls by inserting yourself or grabing it from the current tab.
-    </li>
-    <li>
-    <a href="https://github.com/akramnarejo/frontend-projects/tree/master/passanger-counter" target="_blank">Passanger Counter</a>: 
-    A web app to keep the count of passangers for any real-world application where end-user is supposed to count the people. It records along with  the history.
-    </li>
-
-    <li>
-    <a href="https://github.com/akramnarejo/frontend-projects/tree/master/blackjack" target="_blank">BlackJack Game</a>: A web app game where player is supposed to get the number 21 of sum of cards, to have BlackJack card and win the $50. On every unsuccessful round user loose the $50. 
-    </li>
-
-    <li>
-    <a href="https://github.com/akramnarejo/frontend-projects/tree/master/my-emojis" target="_blank">My Emojis</a>:
-    A web app to add your favorite emojis to the list, and user have option to add and remove emojis from start or from the end of the list.
-    </li>
-  </ul>
-</div>
-
-<div class="writeups">
-  <h2>I write on <a href="https://dev.to/akramnarejo" target="_blank">DEV</a></h2>
-
-  <ul>
-    <li>
-      <a href="https://dev.to/akramnarejo/how-to-decide-css-units-for-responsive-website-nk4" target="_blank">
-        How to decide CSS units for repsonsive website?</a>
-    </li>
-
-    <li>
-     <a href="https://dev.to/akramnarejo/push-remote-changes-with-another-account-2579" target="_blank">
-    How to push remote changes to github with another account.</a> 
-    </li>
-
-    <li><a href="https://dev.to/akramnarejo/diff-and-patch-3mfc" target="_blank">Diff and Patch Explained.</a>
-    </li>
-  </ul>
-    
-</div>
-
-
+    <script src="index.js"></script>
 </body>
 </html>
-
